@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+div#root{
+
+  display: flex;
+  justify-content: center;
+
+}
+.Contacts{
+
+  
+  width: 25%;
+  overflow-y: auto;
+  height: 500px;
+  
+}
+
+.myList{
+  list-style: none;
+}
+
+.header{
+
+  background-color: rgb(128,188,57);
+  padding-bottom: 15px;
+  color: white;
+  font-size: 20px;
+  padding-top: 5px;
+}
+.myContacts{
+
+    border-bottom: rgb(235,235,235);
+    border-bottom-style: ridge;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-width: thin;
+    
+
+}
+
+li.myContacts{
+
+  display: flex;
+  align-items: center;
+}
+
+.picture{
+  border-radius: 50%;
+}
+
+.name{
+  margin-left: 15px;
+  color: black;
+}
+
+.details{
+  border-bottom: rgb(235,235,235);
+  border-bottom-style: ridge;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom-width: thin;
+}
+
+.lrgImg{
+border-radius: 50%;
+background-color: rgb(128,188,57);
+margin-bottom: 30px;
+}
+
+h2{
+  background-color: rgb(167,208,118);
+  display: flex;
+  justify-content: center;
+  padding-top: 30px
+}
