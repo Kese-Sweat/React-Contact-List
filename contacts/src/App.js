@@ -7,6 +7,7 @@ import {BrowserRouter as Router, Route } from 'react-router-dom';
 import ContactList from './ContactList'
 
 
+
 function App() {
 
 const [data, setData]= useState(MyData)
@@ -17,11 +18,14 @@ console.log(MyData)
     <div className="Contacts">
       
     <Router>
+      
        <Route path="/" exact component={ContactList} />
        <Route path="/randomUsers/:id" component={Info} />
+       
     </Router>
     </div>
   );
 }
 
 export default App;
+
